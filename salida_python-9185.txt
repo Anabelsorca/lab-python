@@ -1,0 +1,9 @@
+
+ Ejecutando reducción con value = 10000000
+
+Time with plain Python loop: 2.783887 seconds
+Resultado: 49999995000000
+Time with list + sum(): 0.301985 seconds
+Time with numpy + np.sum(): 0.014443 seconds
+Time with Numba + loop: 4.433821 seconds
+Resultado con Numba: 49999995000000
